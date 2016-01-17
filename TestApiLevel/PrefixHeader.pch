@@ -1,0 +1,24 @@
+//
+//  PrefixHeader.pch
+//  TestApiLevel
+//
+//  Created by zmjios on 16/1/16.
+//  Copyright © 2016年 zmjios. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+//#ifdef __OBJC__
+
+    #define __IPHONE_OS_VERSION_SOFT_MAX_REQUIRED __IPHONE_7_1
+    #import "CTPayDebug.h"
+
+    //#import "CTTest.h"
+
+//#endif
+
+#endif /* PrefixHeader_pch */
