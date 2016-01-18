@@ -56,7 +56,6 @@
 		7C650F911C4A4B4500F80E6E /* TestApiLevelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestApiLevelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C650F951C4A4B4500F80E6E /* TestApiLevelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestApiLevelUITests.m; sourceTree = "<group>"; };
 		7C650F971C4A4B4500F80E6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7C650FA41C4A4BE000F80E6E /* CTPayDebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTPayDebug.h; sourceTree = "<group>"; };
 		7C650FA51C4A512000F80E6E /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		7CD9BF481C4B41B600B1B747 /* CTTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTTest.h; sourceTree = "<group>"; };
 		7CD9BF491C4C7B3400B1B747 /* CustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomView.h; sourceTree = "<group>"; };
@@ -65,6 +64,7 @@
 		7CD9BF4E1C4C816600B1B747 /* PassKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PassKit.framework; path = System/Library/Frameworks/PassKit.framework; sourceTree = SDKROOT; };
 		7CD9BF501C4C817C00B1B747 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		7CD9BF521C4C819300B1B747 /* CoreSpotlight.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreSpotlight.framework; path = System/Library/Frameworks/CoreSpotlight.framework; sourceTree = SDKROOT; };
+		7CD9BF751C4CBFF000B1B747 /* TCDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCDefine.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,7 +129,7 @@
 				7C650F771C4A4B4500F80E6E /* ViewController.m */,
 				7CD9BF491C4C7B3400B1B747 /* CustomView.h */,
 				7CD9BF4A1C4C7B3400B1B747 /* CustomView.m */,
-				7C650FA41C4A4BE000F80E6E /* CTPayDebug.h */,
+				7CD9BF751C4CBFF000B1B747 /* TCDefine.h */,
 				7C650FA51C4A512000F80E6E /* PrefixHeader.pch */,
 				7CD9BF481C4B41B600B1B747 /* CTTest.h */,
 				7C650F791C4A4B4500F80E6E /* Main.storyboard */,

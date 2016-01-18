@@ -1,38 +1,28 @@
 //
-//  CTPayDebug.h
-//  CTPay
+//  TCDefine.h
+//  TestApiLevel
 //
-//  Created by zmjios on 16/1/16.
-//  Copyright © 2016年 ctrip. All rights reserved.
+//  Created by zmjios on 16/1/18.
+//  Copyright © 2016年 zmjios. All rights reserved.
 //
 
-#ifndef CTPayDebug_h
-#define CTPayDebug_h
-
+#ifndef TCDefine_h
+#define TCDefine_h
 
 #import <Availability.h>
 #include <AvailabilityInternal.h>
 #include <Foundation/NSObjCRuntime.h>
 
-//#undef  __AVAILABILITY_INTERNAL_WEAK_IMPORT
-//#ifdef __clang__
-//#define __AVAILABILITY_INTERNAL_WEAK_IMPORT \
-//__attribute__((weak_import,deprecated("API newer than Deployment Target.")))
-//#else
-//#define __AVAILABILITY_INTERNAL_WEAK_IMPORT \
-//__attribute__((weak_import,deprecated))
-//#endif
-
 
 /**
  * Example usage:
- *   If you want to see if you're using methods that are only defined in iOS 4.0 and lower
- *   then you would use the following. Replace the __IPHONE_4_0 with whatever other macro
+ *   If you want to see if you're using methods that are only defined in iOS 7.0 and lower
+ *   then you would use the following. Replace the __IPHONE_7_0 with whatever other macro
  *   you require. See Availability.h for iOS versions these relate to.
  *
  * YourProjectPrefixHeader.pch:
  *   #define __IPHONE_OS_VERSION_SOFT_MAX_REQUIRED __IPHONE_7_0
- *   #import "MJGAvailability.h"
+ *   #import "TCDefine.h"
  *
  *   // The rest of your prefix header as normal
  *   #import <UIKit/UIKit.h>
@@ -40,8 +30,8 @@
  * For OSX, you also get the warnings:
  *
  * YourOSXPrefixHeader.pch
- *   #define __MAC_OS_X_VERSION_SOFT_MAX_REQUIRED __MAC_10_7
- *   #import "MJGAvailability.h"
+ *   #define __MAC_OS_X_VERSION_SOFT_MAX_REQUIRED __MAC_10_10
+ *   #import "TCDefine.h"
  *
  * If you want to suppress a single warning (i.e. because you know that what you're doing is
  * actually OK) then you can do something like this:
@@ -285,4 +275,4 @@
 #define CF_AVAILABLE_IOS(_ios) __OSX_AVAILABLE_STARTING(__MAC_NA, __IPHONE_##_ios)
 
 
-#endif /* CTPayDebug_h */
+#endif /* TCDefine_h */

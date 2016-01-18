@@ -15,7 +15,7 @@
 //#ifdef __OBJC__
 
     #define __IPHONE_OS_VERSION_SOFT_MAX_REQUIRED __IPHONE_7_1
-    #import "CTPayDebug.h"
+    #import "TCDefine.h"
 
     //#import "CTTest.h"
 
