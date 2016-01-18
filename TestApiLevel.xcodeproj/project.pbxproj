@@ -15,6 +15,11 @@
 		7C650F801C4A4B4500F80E6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C650F7E1C4A4B4500F80E6E /* LaunchScreen.storyboard */; };
 		7C650F8B1C4A4B4500F80E6E /* TestApiLevelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C650F8A1C4A4B4500F80E6E /* TestApiLevelTests.m */; };
 		7C650F961C4A4B4500F80E6E /* TestApiLevelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C650F951C4A4B4500F80E6E /* TestApiLevelUITests.m */; };
+		7CD9BF4B1C4C7B3400B1B747 /* CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD9BF4A1C4C7B3400B1B747 /* CustomView.m */; };
+		7CD9BF4D1C4C814C00B1B747 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CD9BF4C1C4C814C00B1B747 /* UIKit.framework */; };
+		7CD9BF4F1C4C816600B1B747 /* PassKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CD9BF4E1C4C816600B1B747 /* PassKit.framework */; };
+		7CD9BF511C4C817C00B1B747 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CD9BF501C4C817C00B1B747 /* MobileCoreServices.framework */; };
+		7CD9BF531C4C819300B1B747 /* CoreSpotlight.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CD9BF521C4C819300B1B747 /* CoreSpotlight.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +59,12 @@
 		7C650FA41C4A4BE000F80E6E /* CTPayDebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTPayDebug.h; sourceTree = "<group>"; };
 		7C650FA51C4A512000F80E6E /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		7CD9BF481C4B41B600B1B747 /* CTTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTTest.h; sourceTree = "<group>"; };
+		7CD9BF491C4C7B3400B1B747 /* CustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomView.h; sourceTree = "<group>"; };
+		7CD9BF4A1C4C7B3400B1B747 /* CustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomView.m; sourceTree = "<group>"; };
+		7CD9BF4C1C4C814C00B1B747 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7CD9BF4E1C4C816600B1B747 /* PassKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PassKit.framework; path = System/Library/Frameworks/PassKit.framework; sourceTree = SDKROOT; };
+		7CD9BF501C4C817C00B1B747 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		7CD9BF521C4C819300B1B747 /* CoreSpotlight.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreSpotlight.framework; path = System/Library/Frameworks/CoreSpotlight.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +72,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CD9BF531C4C819300B1B747 /* CoreSpotlight.framework in Frameworks */,
+				7CD9BF511C4C817C00B1B747 /* MobileCoreServices.framework in Frameworks */,
+				7CD9BF4F1C4C816600B1B747 /* PassKit.framework in Frameworks */,
+				7CD9BF4D1C4C814C00B1B747 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +99,10 @@
 		7C650F641C4A4B4500F80E6E = {
 			isa = PBXGroup;
 			children = (
+				7CD9BF521C4C819300B1B747 /* CoreSpotlight.framework */,
+				7CD9BF501C4C817C00B1B747 /* MobileCoreServices.framework */,
+				7CD9BF4E1C4C816600B1B747 /* PassKit.framework */,
+				7CD9BF4C1C4C814C00B1B747 /* UIKit.framework */,
 				7C650F6F1C4A4B4500F80E6E /* TestApiLevel */,
 				7C650F891C4A4B4500F80E6E /* TestApiLevelTests */,
 				7C650F941C4A4B4500F80E6E /* TestApiLevelUITests */,
@@ -108,6 +127,8 @@
 				7C650F741C4A4B4500F80E6E /* AppDelegate.m */,
 				7C650F761C4A4B4500F80E6E /* ViewController.h */,
 				7C650F771C4A4B4500F80E6E /* ViewController.m */,
+				7CD9BF491C4C7B3400B1B747 /* CustomView.h */,
+				7CD9BF4A1C4C7B3400B1B747 /* CustomView.m */,
 				7C650FA41C4A4BE000F80E6E /* CTPayDebug.h */,
 				7C650FA51C4A512000F80E6E /* PrefixHeader.pch */,
 				7CD9BF481C4B41B600B1B747 /* CTTest.h */,
@@ -277,6 +298,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C650F781C4A4B4500F80E6E /* ViewController.m in Sources */,
+				7CD9BF4B1C4C7B3400B1B747 /* CustomView.m in Sources */,
 				7C650F751C4A4B4500F80E6E /* AppDelegate.m in Sources */,
 				7C650F721C4A4B4500F80E6E /* main.m in Sources */,
 			);
@@ -423,6 +445,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = NO;
+				CLANG_MODULES_AUTOLINK = NO;
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = TestApiLevel/PrefixHeader.pch;
@@ -438,6 +462,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_MODULES_AUTOLINK = YES;
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = TestApiLevel/PrefixHeader.pch;

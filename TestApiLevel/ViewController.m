@@ -10,6 +10,7 @@
 #import <CoreSpotlight/CoreSpotlight.h>
 #import <MobileCoreServices/MobileCoreServices.h>
 #import <PassKit/PassKit.h>
+#import "CustomView.h"
 
 NSString * const TestNetworkChinaUnionPay = @"aaaaaaaaaa";
 
@@ -38,7 +39,8 @@ NSString * const TestNetworkChinaUnionPay = @"aaaaaaaaaa";
     self.testEdge = UIRectEdgeNone;
     
     
-   
+    CustomView *custom = [[CustomView alloc] init];
+    custom.textLabel.text = @"aaaaa";
 
     
 }
@@ -57,21 +59,19 @@ NSString * const TestNetworkChinaUnionPay = @"aaaaaaaaaa";
     attributeSet.contentDescription = @"bbbbbb";
     attributeSet.keywords = @[@"ccccc"];
     
-    
     NSString *test = PKPaymentNetworkChinaUnionPay;
     NSLog(@"test = %@",test);
-    
     
     NSString *testU = TestNetworkChinaUnionPay;
     NSLog(@"testU = %@",testU);
     
     
     
-    
-    
 //    if ( SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(@"9.0")) {
 //        NSLog(@"this is in test");
 //    }
+    
+    
     
 }
 
